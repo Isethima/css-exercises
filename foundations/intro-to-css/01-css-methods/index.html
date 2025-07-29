@@ -1,6 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <style>
+#second {
+  background-color: green;
+  color: white;
+  font-size: 18px;
+}
+    </style>
     <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,7 +16,7 @@
   </head>
   <body>
     <div id="first">Style me via the external method!</div>
-    <p>I would like to be styled with the internal method, please.</p>
-    <button>Inline Method</button>
+    <p id="second">I would like to be styled with the internal method, please.</p>
+    <button style="background-color: orange; font-size: 18px;">Inline Method</button>
   </body>
 </html>
